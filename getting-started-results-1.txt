@@ -2,20 +2,36 @@ GHCi, version 7.8.4: http://www.haskell.org/ghc/  :? for help
 Loading package ghc-prim ... linking ... done.
 Loading package integer-gmp ... linking ... done.
 Loading package base ... linking ... done.
-Prelude> 5 + 8 :: Num a => a
-Prelude> 3 * 5 + 8 :: Num a => a
-Prelude> 2 + 4 :: Num a => a
-Prelude> (+) 2 4 :: Num a => a
-Prelude> sqrt 16 :: Floating a => a
-Prelude> succ 6 :: (Num a, Enum a) => a
-Prelude> succ 7 :: (Num a, Enum a) => a
-Prelude> pred 9 :: (Num a, Enum a) => a
-Prelude> pred 8 :: (Num a, Enum a) => a
-Prelude> sin (pi /2) :: Floating a => a
-Prelude> truncate pi :: Integral b => b
-Prelude> round 3.5 :: Integral b => b
-Prelude> round 3.4 :: Integral b => b
-Prelude> floor 3.7 :: Integral b => b
-Prelude> ceiling 3.3 :: Integral b => b
-Prelude> Prelude> Prelude> x :: Num a => a = _
+Prelude> Prelude> Prelude> 13
+it :: Num a => a
+Prelude> 23
+it :: Num a => a
+Prelude> 6
+it :: Num a => a
+Prelude> 6
+it :: Num a => a
+Prelude> 4.0
+it :: Floating a => a
+Prelude> 7
+it :: (Num a, Enum a) => a
+Prelude> 8
+it :: (Num a, Enum a) => a
+Prelude> 8
+it :: (Num a, Enum a) => a
+Prelude> 7
+it :: (Num a, Enum a) => a
+Prelude> 1.0
+it :: Floating a => a
+Prelude> 3
+it :: Integral b => b
+Prelude> 4
+it :: Integral b => b
+Prelude> 3
+it :: Integral b => b
+Prelude> 3
+it :: Integral b => b
+Prelude> 4
+it :: Integral b => b
+Prelude> Prelude> Prelude> Prelude> Prelude> it :: Integral b => b = _
+x :: Num a => a = _
 Prelude> Leaving GHCi.
