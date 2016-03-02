@@ -1,0 +1,5 @@
+This function takes a list of type a and returns an element of type a
+
+it could return any element of the input list, or another element of that type entirely. it will fail on non-lists and empty lists.
+
+  
